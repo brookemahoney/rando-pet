@@ -1,0 +1,121 @@
+{
+  "animals": [
+    {
+      "id": 74654986,
+      "organization_id": "CO425",
+      "url": "https:\/\/www.petfinder.com\/cat\/bb-and-sadie-mae-74654986\/co\/denver\/pawsco-co425\/?referrer_id=fa593afa-8a09-410f-a10d-9ac45195e900\u0026utm_source=api\u0026utm_medium=partnership\u0026utm_content=fa593afa-8a09-410f-a10d-9ac45195e900",
+      "type": "Cat",
+      "species": "Cat",
+      "breeds": {
+        "primary": "Domestic Short Hair",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Black",
+        "secondary": "Tabby (Brown \/ Chocolate)",
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Large",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": true,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": true
+      },
+      "tags": [
+        "Affectionate"
+      ],
+      "name": "BB and Sadie Mae",
+      "description": "Name: Sadie Mae and BB\nBreed: Domestic Short Hair\nSex: Spayed Female \/ Neutered Male\nAge: 9 years \/ 4...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505\u0026width=100",
+          "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505\u0026width=300",
+          "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505\u0026width=600",
+          "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505"
+        },
+        {
+          "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/0983a10e-0ad8-4992-bc77-4d67da9b45e1.jpg?versionId=gpIP8LRV55Y97Y2shpSLfhFqZcIPFsqd\u0026bust=1736118504\u0026width=100",
+          "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/0983a10e-0ad8-4992-bc77-4d67da9b45e1.jpg?versionId=gpIP8LRV55Y97Y2shpSLfhFqZcIPFsqd\u0026bust=1736118504\u0026width=300",
+          "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/0983a10e-0ad8-4992-bc77-4d67da9b45e1.jpg?versionId=gpIP8LRV55Y97Y2shpSLfhFqZcIPFsqd\u0026bust=1736118504\u0026width=600",
+          "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/0983a10e-0ad8-4992-bc77-4d67da9b45e1.jpg?versionId=gpIP8LRV55Y97Y2shpSLfhFqZcIPFsqd\u0026bust=1736118504"
+        },
+        {
+          "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/75d6fc47-dd76-43e2-9755-a302058ce8e3.jpg?versionId=LByyxMQF4mgYbQfKAt8wYhK_ubCD5c5e\u0026bust=1736118504\u0026width=100",
+          "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/75d6fc47-dd76-43e2-9755-a302058ce8e3.jpg?versionId=LByyxMQF4mgYbQfKAt8wYhK_ubCD5c5e\u0026bust=1736118504\u0026width=300",
+          "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/75d6fc47-dd76-43e2-9755-a302058ce8e3.jpg?versionId=LByyxMQF4mgYbQfKAt8wYhK_ubCD5c5e\u0026bust=1736118504\u0026width=600",
+          "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/75d6fc47-dd76-43e2-9755-a302058ce8e3.jpg?versionId=LByyxMQF4mgYbQfKAt8wYhK_ubCD5c5e\u0026bust=1736118504"
+        },
+        {
+          "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/8db21e1a-135e-4159-a012-391cd088b663.jpg?versionId=XcDLAGnzjPpt1M7.MbT8fBEFglW9GM0f\u0026bust=1736118538\u0026width=100",
+          "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/8db21e1a-135e-4159-a012-391cd088b663.jpg?versionId=XcDLAGnzjPpt1M7.MbT8fBEFglW9GM0f\u0026bust=1736118538\u0026width=300",
+          "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/8db21e1a-135e-4159-a012-391cd088b663.jpg?versionId=XcDLAGnzjPpt1M7.MbT8fBEFglW9GM0f\u0026bust=1736118538\u0026width=600",
+          "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/8db21e1a-135e-4159-a012-391cd088b663.jpg?versionId=XcDLAGnzjPpt1M7.MbT8fBEFglW9GM0f\u0026bust=1736118538"
+        },
+        {
+          "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/f670834d-f906-4a97-921a-5e7df44a1608.jpg?versionId=gaEoQbkii1h7IpQiYej3mwgHdUOmP6_b\u0026bust=1736118554\u0026width=100",
+          "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/f670834d-f906-4a97-921a-5e7df44a1608.jpg?versionId=gaEoQbkii1h7IpQiYej3mwgHdUOmP6_b\u0026bust=1736118554\u0026width=300",
+          "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/f670834d-f906-4a97-921a-5e7df44a1608.jpg?versionId=gaEoQbkii1h7IpQiYej3mwgHdUOmP6_b\u0026bust=1736118554\u0026width=600",
+          "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/f670834d-f906-4a97-921a-5e7df44a1608.jpg?versionId=gaEoQbkii1h7IpQiYej3mwgHdUOmP6_b\u0026bust=1736118554"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505\u0026width=300",
+        "medium": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505\u0026width=450",
+        "large": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505\u0026width=600",
+        "full": "https:\/\/dbw3zep4prcju.cloudfront.net\/animal\/d7287917-5dad-4f2f-a6f2-5b3182ba093d\/image\/13df192c-69ba-4de6-b416-fbd7a68c67ff.jpg?versionId=DvQsnBTZxh.rkiEwzaF12zzaaL4pB0Wg\u0026bust=1736118505"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-01-05T23:10:00+0000",
+      "published_at": "2025-01-05T23:09:59+0000",
+      "distance": null,
+      "contact": {
+        "email": "adopt@pawscoadoptions.org",
+        "phone": null,
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Denver",
+          "state": "CO",
+          "postcode": "80205",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "\/v2\/animals\/74654986"
+        },
+        "type": {
+          "href": "\/v2\/types\/cat"
+        },
+        "organization": {
+          "href": "\/v2\/organizations\/co425"
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "count_per_page": 1,
+    "total_count": 4995,
+    "current_page": 1,
+    "total_pages": 4995,
+    "_links": {
+      "next": {
+        "href": "\/v2\/animals?limit=1\u0026special_needs=1\u0026status=adoptable\u0026type=Cat\u0026page=2"
+      }
+    }
+  }
+}
