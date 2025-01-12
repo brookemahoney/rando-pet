@@ -93,7 +93,6 @@ const renewAnimals = ({
       limit: 100,
       status: 'adoptable',
       special_needs: true,
-      name: 'Max Cooper',
     },
     headers: {
       'Authorization': `Bearer ${accessToken}`,
