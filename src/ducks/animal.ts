@@ -64,10 +64,17 @@ export const animalDefault: TSAnimal = {
   url: '',
 };
 
+const fixQuotes = (text: string): string => (
+  text
+  .replace('&amp;#39;', "'")
+  .replace('&quot;', '"')
+);
+
 const enhanceAnimalResponse = (animal: TSAnimalResponse): TSAnimal => ({
   ...animal,
   location: [animal.contact.address.city, animal.contact.address.state].filter(location => location).join(', '),
   tagsDescription: animal.tags.join(', '),
+  description: fixQuotes(animal.description || ''),
 })
 
 const renewAnimals = ({
