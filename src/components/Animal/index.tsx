@@ -6,22 +6,20 @@ interface TSProps { animal: TSAnimal };
 const Animal = ({ animal }: TSProps) => (
   <section className="animalWrapper">
     <div className="animal">
-      <h2>
+      <h2 className='name'>
         {animal.name}
       </h2>
-      <h3>
-        <a href={animal.url}>Adoptable!</a>
-      </h3>
       {(animal.description || animal.tagsDescription) && (
         <div className="description">
+          {animal.tagsDescription && (
+            <p>{animal.tagsDescription}</p>
+          )}
           {animal.description && (
             <p>
               {animal.description}
-              <>&nbsp;<a target="_blank" href={animal.url}>Read more</a></>
+              <br />
+              <a target="_blank" href={animal.url}>Read more</a>
             </p>
-          )}
-          {animal.tagsDescription && (
-            <p>{animal.tagsDescription}</p>
           )}
           {location && (
             <p>{animal.location}</p>
