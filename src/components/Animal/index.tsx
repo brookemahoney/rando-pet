@@ -15,7 +15,10 @@ const Animal = ({ animal }: TSProps) => (
       {(animal.description || animal.tagsDescription) && (
         <div className="description">
           {animal.description && (
-            <p>{animal.description}</p>
+            <p>
+              {animal.description}
+              <>&nbsp;<a target="_blank" href={animal.url}>Read more</a></>
+            </p>
           )}
           {animal.tagsDescription && (
             <p>{animal.tagsDescription}</p>
