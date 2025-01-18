@@ -15,13 +15,12 @@ const Animal = ({ animal }: TSProps) => (
             <p>{animal.tagsDescription}</p>
           )}
           {animal.description && (
-            <p>
-              {animal.description}
-              <br />
-              <a target="_blank" href={animal.url}>Read more</a>
-            </p>
+            <p>{animal.description}</p>
           )}
-          {location && (
+          <p>
+            <a target="_blank" href={animal.url}>Read more</a>
+          </p>
+          {animal.location && (
             <p>{animal.location}</p>
           )}
         </div>
