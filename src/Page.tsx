@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import renewAccessToken from './ducks/auth';
 import renewAnimals, { TSAnimal } from './ducks/animal';
 import Animal from './components/Animal';
@@ -35,13 +35,13 @@ const Page = () => {
     );
   }
   
-  const animalsWithPhotos = animals.filter(animal => animal.photos.length)
+  const animalsWithPhotos = animals.filter(animal => animal.photos.length);
   const animal = animalsWithPhotos[Math.floor(Math.random() * animalsWithPhotos.length)]
     || animals[0];
 
   return (
     <Animal animal={animal} />
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

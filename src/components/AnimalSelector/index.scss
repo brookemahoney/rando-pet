@@ -1,0 +1,24 @@
+.animalWrapper {
+  .animal {
+    padding: 0 2%;
+    text-align: center;
+  }
+  
+  .description {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .loading {
+    font-weight: bold;
+  }
+
+  .name {
+    color: #d4d;
+  }
+
+  .photoWrapper {
+    text-align: center;
+  }
+}
