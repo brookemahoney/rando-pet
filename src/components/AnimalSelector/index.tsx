@@ -1,39 +1,22 @@
-import { type TSAnimal } from '../../ducks/animal';
+import { Dispatch, SetStateAction } from 'react';
+import { TSAnimal, selectRandomAnimal } from '../../ducks/animal';
 import './index.scss';
 
-interface TSProps { animal: TSAnimal };
+interface TSProps {
+  animals: TSAnimal[],
+  setAnimal: Dispatch<SetStateAction<TSAnimal>>,
+};
 
-const Animal = ({ animal }: TSProps) => (
-  <section className="animalWrapper">
-    <div className="animal">
-      <h2 className='name'>
-        {animal.name}
-      </h2>
-      {(animal.description || animal.tagsDescription) && (
-        <div className="description">
-          {animal.tagsDescription && (
-            <p>{animal.tagsDescription}</p>
-          )}
-          {animal.description && (
-            <p>{animal.description}</p>
-          )}
-          <p>
-            <a target="_blank" href={animal.url}>Read more</a>
-          </p>
-          {animal.location && (
-            <p>{animal.location}</p>
-          )}
-        </div>
-      )}
-      {animal.photos.map(photo => (
-        <div className="photoWrapper" key={photo.full}>
-          <img
-            alt={animal.name}
-            src={photo.full} />
-        </div>
-      ))}
-    </div>
-  </section>
-);
+const AnimalSelector = ({ animals, setAnimal }: TSProps) => {
+  const onRandomizeClick = () => {
+    setAnimal(selectRandomAnimal(animals));
+  };
 
-export default Animal;
+  return (
+    <section className="animalSelectorWrapper">
+      <button onClick={onRandomizeClick}>Randomize</button>
+    </section>
+  );
+};
+
+export default AnimalSelector;

@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react';
 import renewAccessToken from './ducks/auth';
-import renewAnimals, { TSAnimal } from './ducks/animal';
+import renewAnimals, { TSAnimal, animalDefault, selectRandomAnimal } from './ducks/animal';
 import Animal from './components/Animal';
+import AnimalSelector from './components/AnimalSelector';
 
 const Page = () => {
   const [loading, setLoading] = useState(true);
   const [accessToken, setAccessToken] = useState('');
   const [animals, setAnimals] = useState<TSAnimal[]>([]);
   const [fetchingAnimals, setFetchingAnimals] = useState(false);
+  const [animal, setAnimal] = useState(animalDefault);
   
   /**
    * Gets access token.
@@ -26,6 +28,7 @@ const Page = () => {
     } else if (animals.length && fetchingAnimals) {
       setFetchingAnimals(false);
       setLoading(false);
+      setAnimal(selectRandomAnimal(animals));
     }
   }, [accessToken, animals, fetchingAnimals]);
 
@@ -34,13 +37,12 @@ const Page = () => {
       <h2>Loading...</h2>
     );
   }
-  
-  const animalsWithPhotos = animals.filter(animal => animal.photos.length);
-  const animal = animalsWithPhotos[Math.floor(Math.random() * animalsWithPhotos.length)]
-    || animals[0];
 
   return (
-    <Animal animal={animal} />
+    <>
+      <Animal animal={animal} />
+      <AnimalSelector animals={animals} setAnimal={setAnimal} />
+    </>
   );
 };
 

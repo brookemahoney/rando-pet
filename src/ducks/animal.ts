@@ -107,3 +107,11 @@ const renewAnimals = ({
 };
 
 export default renewAnimals;
+
+export const selectRandomAnimal = (animals: TSAnimal[]):TSAnimal => {
+  const animalsWithPhotos = animals.filter(animal => animal.photos.length);
+  const animal = animalsWithPhotos[Math.floor(Math.random() * animalsWithPhotos.length)]
+    || animals[0];
+
+  return animal;
+};
